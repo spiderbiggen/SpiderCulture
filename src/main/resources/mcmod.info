@@ -1,0 +1,16 @@
+[
+{
+  "modid": "spiderculture",
+  "name": "Spider Culture",
+  "description": "A mod about adding more features to spiders and creating some worldgen involving spiders",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Spiderbiggen"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
