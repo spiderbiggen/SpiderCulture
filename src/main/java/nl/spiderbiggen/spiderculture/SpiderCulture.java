@@ -9,13 +9,10 @@ import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.block.Block;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
-import nl.spiderbiggen.spiderculture.reference.Reference;
 import nl.spiderbiggen.spiderculture.blocks.SpiderEggBlock;
 import nl.spiderbiggen.spiderculture.items.SpiderEggItem;
 import nl.spiderbiggen.spiderculture.items.SpiderScoop;
 import nl.spiderbiggen.spiderculture.proxy.IProxy;
-
-import java.sql.Ref;
 
 /**
  * Created by Spiderbiggen on 15-8-2014.
@@ -29,7 +26,6 @@ public class SpiderCulture {
 
     @SidedProxy(clientSide = Reference.CLIENT_PROXY, serverSide = Reference.SERVER_PROXY, modId = Reference.MOD_ID)
     public static IProxy proxy;
-
 
 
     /*
