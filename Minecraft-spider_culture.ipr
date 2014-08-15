@@ -194,8 +194,7 @@
     <option name="mySupportsUserInfoFilter" value="true" />
   </component>
   <component name="VcsDirectoryMappings">
-    <mapping directory="" vcs="" />
-    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="" vcs="Git" />
   </component>
   <component name="libraryTable">
     <library name="Gradle: akka-actor_2.11-2.3.3">
@@ -227,9 +226,9 @@
       <JAVADOC />
       <SOURCES />
     </library>
-    <library name="Gradle: C__Users_Stefan__gradle_caches_minecraft_net_minecraftforge_forge_1_7_10_10_13_0_1180_start">
+    <library name="Gradle: C__Users_Stefan__gradle_caches_minecraft_net_minecraftforge_forge_1_7_10_10_13_0_1205_start">
       <CLASSES>
-        <root url="file://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1180/start" />
+        <root url="file://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1205/start" />
       </CLASSES>
       <JAVADOC />
       <SOURCES />
@@ -314,13 +313,13 @@
         <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.typesafe/config/1.2.1/bdacf4f82ce9b29cd474bfde2e91eeb0ca623d28/config-1.2.1-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Gradle: forgeSrc-1.7.10-10.13.0.1180">
+    <library name="Gradle: forgeSrc-1.7.10-10.13.0.1205">
       <CLASSES>
-        <root url="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1180/forgeSrc-1.7.10-10.13.0.1180.jar!/" />
+        <root url="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1205/forgeSrc-1.7.10-10.13.0.1205.jar!/" />
       </CLASSES>
       <JAVADOC />
       <SOURCES>
-        <root url="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1180/forgeSrc-1.7.10-10.13.0.1180-sources.jar!/" />
+        <root url="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1205/forgeSrc-1.7.10-10.13.0.1205-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Gradle: gson-2.2.4">
@@ -712,6 +711,47 @@
       <JAVADOC />
       <SOURCES />
     </library>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <UIState>
+          <splitter-proportions>
+            <SplitterProportionsDataImpl />
+          </splitter-proportions>
+          <settings />
+        </UIState>
+      </state>
+      <state key="Copyright.UI">
+        <UIState>
+          <splitter-proportions>
+            <SplitterProportionsDataImpl />
+          </splitter-proportions>
+        </UIState>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <UIState>
+          <splitter-proportions>
+            <SplitterProportionsDataImpl>
+              <option name="proportions">
+                <list>
+                  <option value="0.2" />
+                </list>
+              </option>
+            </SplitterProportionsDataImpl>
+          </splitter-proportions>
+          <last-edited>1.6</last-edited>
+        </UIState>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <UIState>
+          <splitter-proportions>
+            <SplitterProportionsDataImpl />
+          </splitter-proportions>
+          <settings />
+        </UIState>
+      </state>
+    </states>
   </component>
 </project>
 

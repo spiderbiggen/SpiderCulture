@@ -6,4 +6,5 @@ package nl.spiderbiggen.spiderculture;
 public class Reference {
     public static final String MODID = "spiderculture";
     public static final String VERSION = "Dev 0.0.1";
+    public static final String RESOURCE_PREFIX = "spiderculture:";
 }

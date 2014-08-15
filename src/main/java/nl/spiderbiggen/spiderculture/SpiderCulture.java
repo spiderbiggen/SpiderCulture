@@ -28,27 +28,28 @@ public class SpiderCulture {
     /*
      * Items
      */
-    public Item spiderEggItem;
-    public Item spiderScoop;
+    public static Item spiderEggItem;
+    public static Item spiderScoop;
 
 
     @EventHandler
     public void preInit(FMLPreInitializationEvent event) {
-        spiderEggBlock = new SpiderEggBlock(Material.rock).setBlockName("spiderEggBlock").setCreativeTab(CreativeTabs.tabDecorations);
-
+        spiderEggBlock = new SpiderEggBlock();
         spiderEggItem = new SpiderEggItem().setUnlocalizedName("spiderEggItem").setCreativeTab(CreativeTabs.tabDecorations);
         spiderScoop = new SpiderScoop().setUnlocalizedName("spiderScoop").setCreativeTab(CreativeTabs.tabDecorations);
+
+        GameRegistry();
     }
 
     @EventHandler
-    public void init(FMLInitializationEvent event) {
+    public void Init(FMLInitializationEvent event) {
 
     }
 
-    private void registry() {
-        GameRegistry.registerBlock(this.spiderEggBlock, this.spiderEggBlock.getUnlocalizedName().substring(5));
-        GameRegistry.registerItem(this.spiderScoop, this.spiderScoop.getUnlocalizedName().substring(5), Reference.MODID);
-        GameRegistry.registerItem(this.spiderEggItem, this.spiderEggItem.getUnlocalizedName().substring(5), Reference.MODID);
+    private void GameRegistry() {
+        GameRegistry.registerBlock(this.spiderEggBlock, "spiderEggBlock");
+        GameRegistry.registerItem(this.spiderScoop, "spiderScoop", Reference.MODID);
+        GameRegistry.registerItem(this.spiderEggItem, "spiderEggItem", Reference.MODID);
 
     }
 
