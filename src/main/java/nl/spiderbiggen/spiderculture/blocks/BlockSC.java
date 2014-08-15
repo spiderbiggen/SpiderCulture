@@ -5,7 +5,7 @@ import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.client.renderer.texture.IIconRegister;
-import nl.spiderbiggen.spiderculture.Reference;
+import nl.spiderbiggen.spiderculture.reference.Reference;
 
 /**
  * Created by Spiderbiggen on 15-8-2014.

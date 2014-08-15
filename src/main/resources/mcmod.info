@@ -9,7 +9,7 @@
   "updateUrl": "",
   "authorList": ["Spiderbiggen"],
   "credits": "",
-  "logoFile": "",
+  "logoFile": "assets/spiderculture/textures/logo/logo.png",
   "screenshots": [],
   "dependencies": []
 }
