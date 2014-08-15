@@ -8,6 +8,9 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.world.World;
 import net.minecraftforge.event.ForgeEventFactory;
 import nl.spiderbiggen.spiderculture.Reference;
+import nl.spiderbiggen.spiderculture.items.SpiderScoop;
+import nl.spiderbiggen.spiderculture.materials.MaterialMobEgg;
+import nl.spiderbiggen.spiderculture.materials.Materials;
 
 import java.util.ArrayList;
 
@@ -16,10 +19,11 @@ import java.util.ArrayList;
  */
 public class SpiderEggBlock extends BlockSC {
     public SpiderEggBlock() {
-        this.setHardness(0.5f);
+        super(Materials.materialMobEgg);
+        this.setHardness(2.0f);
         this.setBlockName("spiderEggBlock");
         this.setCreativeTab(CreativeTabs.tabDecorations);
-        //this.setBlockTextureName(Reference.RESOURCE_PREFIX + "spiderEggBlock");
+        this.setHarvestLevel("spiderScoop", 0);
     }
 
 }

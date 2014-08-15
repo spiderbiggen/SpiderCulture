@@ -23,7 +23,7 @@ public class SpiderCulture {
     /*
      * Blocks
      */
-    public Block spiderEggBlock;
+    public static Block spiderEggBlock;
 
     /*
      * Items
@@ -36,7 +36,7 @@ public class SpiderCulture {
     public void preInit(FMLPreInitializationEvent event) {
         spiderEggBlock = new SpiderEggBlock();
         spiderEggItem = new SpiderEggItem().setUnlocalizedName("spiderEggItem").setCreativeTab(CreativeTabs.tabDecorations);
-        spiderScoop = new SpiderScoop().setUnlocalizedName("spiderScoop").setCreativeTab(CreativeTabs.tabDecorations);
+        spiderScoop = new SpiderScoop(Item.ToolMaterial.WOOD).setUnlocalizedName("spiderScoop").setCreativeTab(CreativeTabs.tabDecorations);
 
         GameRegistry();
     }
