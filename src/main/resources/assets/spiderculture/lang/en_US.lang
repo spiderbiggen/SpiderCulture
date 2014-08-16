@@ -2,3 +2,4 @@ tile.spiderculture:spiderEggBlock.name=Spider Egg
 
 item.spiderculture:spiderEggItem.name=Spider Egg
 item.spiderculture:spiderScoop.name=Cobweb Scoop
+itemGroup.SpiderCulture=Spider Culture

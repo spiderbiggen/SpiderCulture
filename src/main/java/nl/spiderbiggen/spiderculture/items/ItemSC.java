@@ -5,12 +5,17 @@ import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
-import nl.spiderbiggen.spiderculture.Reference;
+import nl.spiderbiggen.spiderculture.SpiderCulture;
+import nl.spiderbiggen.spiderculture.reference.Reference;
 
 /**
  * Created by Spiderbiggen on 15-8-2014.
  */
 public class ItemSC extends Item {
+
+    public ItemSC() {
+        this.setCreativeTab(SpiderCulture.creativeTabSpiderCulture);
+    }
 
     @Override
     public String getUnlocalizedName() {

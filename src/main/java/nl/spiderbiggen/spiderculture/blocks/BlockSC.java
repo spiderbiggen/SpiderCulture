@@ -5,7 +5,8 @@ import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.client.renderer.texture.IIconRegister;
-import nl.spiderbiggen.spiderculture.Reference;
+import nl.spiderbiggen.spiderculture.SpiderCulture;
+import nl.spiderbiggen.spiderculture.reference.Reference;
 
 /**
  * Created by Spiderbiggen on 15-8-2014.
@@ -14,10 +15,12 @@ public class BlockSC extends Block {
 
     public BlockSC() {
         super(Material.rock);
+        this.setCreativeTab(SpiderCulture.creativeTabSpiderCulture);
     }
 
     public BlockSC(Material mat) {
         super(mat);
+        this.setCreativeTab(SpiderCulture.creativeTabSpiderCulture);
     }
 
     @Override
