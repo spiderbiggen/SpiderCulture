@@ -11,6 +11,7 @@ import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import nl.spiderbiggen.spiderculture.blocks.SpiderEggBlock;
 import nl.spiderbiggen.spiderculture.configuration.ConfigurationHandler;
+import nl.spiderbiggen.spiderculture.items.DebugTool;
 import nl.spiderbiggen.spiderculture.items.SpiderEggItem;
 import nl.spiderbiggen.spiderculture.items.SpiderScoop;
 import nl.spiderbiggen.spiderculture.proxy.IProxy;
@@ -45,13 +46,17 @@ public class SpiderCulture {
     public static Item spiderScoop;
 
 
+    public static Item debugTool;
+
+
     @EventHandler
     public void preInit(FMLPreInitializationEvent event) {
         ConfigurationHandler.init(event.getSuggestedConfigurationFile());
 
         spiderEggBlock = new SpiderEggBlock();
-        spiderEggItem = new SpiderEggItem().setUnlocalizedName("spiderEggItem");
-        spiderScoop = new SpiderScoop(Item.ToolMaterial.WOOD).setUnlocalizedName("spiderScoop");
+        spiderEggItem = new SpiderEggItem();
+        spiderScoop = new SpiderScoop(Item.ToolMaterial.WOOD);
+        debugTool = new DebugTool();
 
         GameRegistry();
     }
@@ -69,6 +74,9 @@ public class SpiderCulture {
         GameRegistry.registerBlock(this.spiderEggBlock, "spiderEggBlock");
         GameRegistry.registerItem(this.spiderScoop, "spiderScoop", Reference.MOD_ID);
         GameRegistry.registerItem(this.spiderEggItem, "spiderEggItem", Reference.MOD_ID);
+
+
+        GameRegistry.registerItem(this.debugTool, "debugTool", Reference.MOD_ID);
 
     }
 

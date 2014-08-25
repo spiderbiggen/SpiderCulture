@@ -1,4 +1,4 @@
-package nl.spiderbiggen.spiderculture.materials;
+package nl.spiderbiggen.spiderculture.blocks.materials;
 
 import net.minecraft.block.material.MapColor;
 import net.minecraft.block.material.Material;

@@ -1,17 +1,12 @@
 package nl.spiderbiggen.spiderculture.items;
 
-import com.google.common.collect.Sets;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.entity.EntityLivingBase;
-import net.minecraft.init.Blocks;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.world.World;
-import nl.spiderbiggen.spiderculture.SpiderCulture;
-import nl.spiderbiggen.spiderculture.materials.Materials;
-
-import java.util.Set;
+import nl.spiderbiggen.spiderculture.blocks.materials.Materials;
 
 /**
  * Created by Spiderbiggen on 15-8-2014.
@@ -25,6 +20,7 @@ public class SpiderScoop extends ItemSC {
         this.toolMaterial = toolMaterial;
         this.setMaxStackSize(1);
         this.setMaxDamage(10);
+        this.setUnlocalizedName("spiderScoop");
     }
 
     @Override
