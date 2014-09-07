@@ -9,6 +9,7 @@ import net.minecraft.init.Blocks;
 import net.minecraft.item.ItemStack;
 import net.minecraft.world.World;
 import nl.spiderbiggen.spiderculture.SpiderCulture;
+import nl.spiderbiggen.spiderculture.entity.EntityCulturedSpider;
 import nl.spiderbiggen.spiderculture.reference.Settings;
 
 import java.util.List;
@@ -83,7 +84,20 @@ public class SpiderEggItem extends ItemSC {
                     return true;
                 }
             } else if (itemStack.getItemDamage() != maxSpawnedSpidersPerItem) {
-                itemStack.damageItem(1, player);
+
+                EntityCulturedSpider spider = new EntityCulturedSpider(world);
+                spider.posX = bx + 0.5;
+                spider.posY = by + 1;
+                spider.posZ = bz + 0.5;
+
+                if (itemStack.hasDisplayName()) {
+                    spider.setCustomNameTag(itemStack.getDisplayName());
+                }
+
+                if (!player.capabilities.isCreativeMode) {
+                    itemStack.damageItem(1, player);
+                }
+
                 return true;
             }
         }
