@@ -5,4 +5,5 @@ package nl.spiderbiggen.spiderculture.reference;
  */
 public class RenderIds {
     public static int spiderEggBlock;
+
 }
