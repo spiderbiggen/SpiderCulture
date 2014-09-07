@@ -15,4 +15,6 @@ public class Reference {
     public static final String SERVER_PROXY = "nl.spiderbiggen.spiderculture.proxy.ServerProxy";
     public static final String CLIENT_PROXY = "nl.spiderbiggen.spiderculture.proxy.ClientProxy";
     public static final ResourceLocation TEXTURE_SPIDEREGG = ResourceLocationHelper.getResourceLocation("textures/blocks/spiderEggBlock.png");
+    public static final ResourceLocation TEXTURE_SPIDER = ResourceLocationHelper.getResourceLocation("textures/entity/culturedSpider.png");
+
 }
