@@ -65,6 +65,7 @@ public class SpiderCulture {
     public void Init(FMLInitializationEvent event) {
         // Initialize mod tile entities
         proxy.registerTileEntities();
+        proxy.registerEntities();
 // Initialize custom rendering and pre-load textures (Client only)
         proxy.initRenderingAndTextures();
         //TODO Render Item for spideregg
