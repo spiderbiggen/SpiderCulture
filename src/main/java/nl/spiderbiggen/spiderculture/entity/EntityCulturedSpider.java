@@ -1,5 +1,6 @@
 package nl.spiderbiggen.spiderculture.entity;
 
+import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityAgeable;
 import net.minecraft.entity.SharedMonsterAttributes;
 import net.minecraft.entity.passive.EntityTameable;
@@ -39,6 +40,7 @@ public class EntityCulturedSpider extends EntityTameable {
     /**
      * Returns the sound this mob makes on death.
      */
+    @Override
     protected String getDeathSound() {
         return "mob.spider.death";
     }

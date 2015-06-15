@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="mods">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/eclipse/assets/mods/NotEnoughItems-1.7.10-1.0.3.51-universal.jar!/" />
+      <root url="jar://$PROJECT_DIR$/eclipse/assets/mods/Waila-1.5.3_1.7.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/eclipse/assets/mods/CodeChickenCore-1.7.10-1.0.3.23-universal.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

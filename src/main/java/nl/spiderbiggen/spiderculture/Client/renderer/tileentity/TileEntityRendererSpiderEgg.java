@@ -24,7 +24,6 @@ public class TileEntityRendererSpiderEgg extends TileEntitySpecialRenderer {
     @Override
     public void renderTileEntityAt(TileEntity tileEntity, double x, double y, double z, float tick) {
         if (tileEntity instanceof TileEntitySpiderEgg) {
-            //TileEntitySpiderEgg tileEntitySpiderEgg = (TileEntitySpiderEgg) tileEntity;
             GL11.glPushMatrix();
             GL11.glTranslated(x, y, z + 1);
             // Bind texture
