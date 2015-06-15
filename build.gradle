@@ -17,12 +17,12 @@ buildscript {
 
 apply plugin: 'forge'
 
-version = "1.7.2-0.0.1"
+version = "1.8.0-0.0.1"
 group = "nl.spiderbiggen.spiderculture" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = "spiderculture"
 
 minecraft {
-    version = "1.7.10-10.13.2.1236"
+    version = "11.14.3.1450"
     runDir = "eclipse/assets"
 }
 
